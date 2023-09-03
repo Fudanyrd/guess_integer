@@ -9,4 +9,4 @@ endif()
 add_library(guess INTERFACE)
 target_include_directories(guess
                            INTERFACE ${CMAKE_CURRENT_SOURCE_DIR}/include)
-target_compile_definitions(${PROJECT_NAME} INTERFACE WOLFRAM_APPID="${ANSWER}")
+target_compile_definitions(guess INTERFACE ANSWER=${ANSWER})

@@ -6,7 +6,7 @@
 #include <cstdlib>
 #include <ctime>
 
-#define ANSWER 42 
+//#define ANSWER 42 
 
 class guess{
 public:

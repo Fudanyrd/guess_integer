@@ -1,4 +1,4 @@
-#include "guess\include\guess.hpp"
+#include <guess.hpp>
 
 using std::cout;        using std::cin;
 using std::endl;
