@@ -1,3 +1,7 @@
+#pragma once
+#ifndef GUESS_HPP
+#define GUESS_HPP
+
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
@@ -25,3 +29,5 @@ public:
         return; 
     }    
 };
+
+#endif//GUESS_HPP
