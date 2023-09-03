@@ -11,7 +11,7 @@
 class guess{
 public:
     static void play(){
-        std::cout << "I am thinking about an integer(in range 0-32767), guess what it is!" << std::endl;
+        std::cout << "I am thinking about an integer(in range 0-127), guess what it is!" << std::endl;
         int ans, value = ANSWER;
         while(true){
             std::cin >> ans;
